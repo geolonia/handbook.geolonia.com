@@ -1,4 +1,5 @@
-# Geolonia について
+# 目次
+## Geolonia について
 - バリュー
 - ミッション
 - ビジョン
@@ -8,14 +9,14 @@
 - CEO 室
 - Key Reviews
 - Group Conversations
-# ハンドブックについて
+## ハンドブックについて
 - [ハンドブック　エスカレーション](/docs/ハンドブックについて/index.md#エスカレーションについて)
 - ハンドブックの利用
 - ハンドブックへの関わりかた
 - ハンドブックの編集
 - ハンドブックのスタイルガイド
 - ハンドブックのメンテナンス
-# HR
+## HR
 - ハラスメントポリシー
 - Global Volunteer Month
 - 採用
@@ -30,7 +31,7 @@
 - Team Member Relations at GitLab
 - Team Member Relations Philosophy
 - ツールとティップス
-# 開発
+## 開発
 - 顧客サポートチーム
 - Development Department
 - Incubation Engineering Department
@@ -38,12 +39,12 @@
 - Quality Department
 - Security Practices
 - Open Source
-# セキュリティー
+## セキュリティー
 - Product Security
 - Security Operations
 - Threat Management
 - Security Assurance
-# セールス・マーケティング
+## セールス・マーケティング
 - Team Member Social Media Policy
 - Blog
 - Brand and Product Marketing
@@ -60,7 +61,7 @@
 - Field Operations
 - Reporting
 - Solutions Architecture
-# 経理・会計
+## 経理・会計
 - Accounts Payable
 - Accounts Receivable
 - Business Technology
@@ -72,7 +73,7 @@
 - Board meetings
 - Internal Audit
 - Equity Compensation
-# プロダクト
+## プロダクト
 - Release posts
 - About the GitLab Product
 - Being a Product Manager at GitLab
@@ -85,7 +86,7 @@
 - Product Pricing Model
 - Corporate Development / Acquisitions
 - UX Department
-# 法務
+## 法務
 - Commercial
 - Corporate
 - Corporate Development
