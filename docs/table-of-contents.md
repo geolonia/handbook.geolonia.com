@@ -5,46 +5,21 @@
 - ビジョン
 - 会社戦略
 - コミュニケーション
-- カルチャー
-- CEO 室
+- [会社概要](/Geolonia%20について/index.html)
+- [代表者について](/Geolonia%20について/about-ceo.html)
 - Key Reviews
 - Group Conversations
 ## ハンドブックについて
-- [ハンドブック　エスカレーション](/docs/ハンドブックについて/index.md#エスカレーションについて)
+- [目的](/ハンドブックについて/index.html)
+- [公開フロー](/ハンドブックについて/index.html#_4)
+- [エスカレーション](/ハンドブックについて/index.html#_8)
 - ハンドブックの利用
-- ハンドブックへの関わりかた
-- ハンドブックの編集
-- ハンドブックのスタイルガイド
-- ハンドブックのメンテナンス
-## HR
-- ハラスメントポリシー
-- Global Volunteer Month
-- 採用
-- インクルージョンとダイバーシティー
-- Labor and Employment Notices
-- Leadership
-- Learning & Development（キャリアパス・福利厚生）
-- オンボーディング
-- 退社フロー
-- Spending Company Money
-- Talent Assessment
-- Team Member Relations at GitLab
-- Team Member Relations Philosophy
-- ツールとティップス
-## 開発
-- 顧客サポートチーム
-- Development Department
-- Incubation Engineering Department
-- Infrastructure Department
-- Quality Department
-- Security Practices
-- Open Source
-## セキュリティー
-- Product Security
-- Security Operations
-- Threat Management
-- Security Assurance
-## セールス・マーケティング
+- [用語集（ハンドブック）](/ハンドブックについて/glossary.html)
+- [ハンドブックの開発 （開発者向け）](/ハンドブックについて/how-to-develop-handbook.html)
+- [ハンドブックの書き方](/ハンドブックについて/how-to-write-handbook.html)
+- [よりよいコンテンツの書き方](/ハンドブックについて/how-to-write-contents.html)
+## 組織別
+### マーケティング
 - Team Member Social Media Policy
 - Blog
 - Brand and Product Marketing
@@ -61,7 +36,41 @@
 - Field Operations
 - Reporting
 - Solutions Architecture
-## 経理・会計
+### 人事・労務
+- ハラスメントポリシー
+- Global Volunteer Month
+- 採用
+- インクルージョンとダイバーシティー
+- Labor and Employment Notices
+- Leadership
+- Learning & Development（キャリアパス・福利厚生）
+- オンボーディング
+- 退社フロー
+- Spending Company Money
+- Talent Assessment
+- Team Member Relations at GitLab
+- Team Member Relations Philosophy
+- ツールとティップス
+### 法務
+- Commercial
+- Corporate
+- Corporate Development
+- Employment
+- Environment, Social, and Governance (ESG)
+- Operations
+- Privacy
+- Product
+- Risk Management and Dispute Resolution
+- Trade Compliance
+### 開発
+- 顧客サポートチーム
+- Development Department
+- Incubation Engineering Department
+- Infrastructure Department
+- Quality Department
+- Security Practices
+- Open Source
+### 経理
 - Accounts Payable
 - Accounts Receivable
 - Business Technology
@@ -86,14 +95,8 @@
 - Product Pricing Model
 - Corporate Development / Acquisitions
 - UX Department
-## 法務
-- Commercial
-- Corporate
-- Corporate Development
-- Employment
-- Environment, Social, and Governance (ESG)
-- Operations
-- Privacy
-- Product
-- Risk Management and Dispute Resolution
-- Trade Compliance
+## セキュリティー
+- Product Security
+- Security Operations
+- Threat Management
+- Security Assurance
