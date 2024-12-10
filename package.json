@@ -1,0 +1,16 @@
+{
+  "name": "handbook.geolonia.com",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "textlint": "^14.4.0",
+    "textlint-filter-rule-allowlist": "^4.0.0",
+    "textlint-rule-preset-ja-technical-writing": "^10.0.1"
+  }
+}

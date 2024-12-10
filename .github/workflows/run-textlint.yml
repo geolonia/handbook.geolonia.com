@@ -1,0 +1,36 @@
+name: run-textlint
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+    paths: ['docs/**/*.md']
+jobs:
+  run-textlint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      checks: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install textlint
+        run: |
+          npm install
+      - name: Run textlint and generate log
+        run: |
+          npx textlint -f checkstyle "docs/**/*.md" > .textlint.log || true
+      - name: Install reviewdog
+        uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: latest
+      - name: Run reviewdog
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat .textlint.log | reviewdog -f=checkstyle -name="textlint" -reporter="github-pr-review"
