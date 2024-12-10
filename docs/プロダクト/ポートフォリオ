@@ -1,0 +1,233 @@
+# Geolonia ポートフォリオ
+
+## Mapbox GL JSのプラグイン
+| リポジトリ | 機能 |
+| -------- | ---- |
+| [mbgl-export-control](https://github.com/geolonia/mbgl-export-control) |  地図を.PNG形式でダウンロードできるようにする |
+| [mbgl-geolonia-control](https://github.com/geolonia/mbgl-geolonia-control) | 地図上にGeoloniaの商標を表示する |
+| [mbgl-fork-me-control](https://github.com/geolonia/mbgl-fork-me-control) | 地図上に「Fork me on GitHub」リボンを追加する |
+| [mbgl-circle-marker](https://github.com/geolonia/mbgl-circle-marker) |　POI（地点情報）を円形マーカーで表示する　|
+| [mbgl-japanese-prefs](https://github.com/geolonia/mbgl-japanese-prefs) | 日本の都道府県を表示し、スタイリングやラベル表示をカスタマイズする |
+| [mbgl-gesture-handling](https://github.com/geolonia/mbgl-gesture-handling) | JavaScript | 地図の意図しない操作を防止する |
+| [mgbl-open-with-control](https://github.com/geolonia/mgbl-open-with-control) | TypeScript | 表示している地図に、他の地図サービス（Google Maps等）で同じ位置を開くためのリンクを追加する |
+| [mbgl-raster-tile-control](https://github.com/geolonia/mbgl-raster-tile-control) | TypeScript | ベクトル地図上にラスタータイル（PNG等）をオーバーレイ表示する |
+
+## ライブラリ
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+| [embed](https://github.com/geolonia/embed) | TypeScript | HTML属性での詳細な地図制御とプラグインによる拡張が可能な、Mapbox GL JS互換の地図埋め込みライブラリ
+ | [tiny-tileserver](https://github.com/geolonia/tiny-tileserver) | JavaScript |地図開発者向けのテスト用軽量なベクタータイルサーバー |
+ | [japanese-prefectures](https://github.com/geolonia/japanese-prefectures) | 未指定 | Web用にカスタマイズ可能な都道府県別SVG地図 |
+
+## サーバー
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+ [tiny-tileserver](https://github.com/geolonia/tiny-tileserver) | JavaScript |地図開発者向けのテスト用軽量なベクタータイルサーバー |
+ | [glyphs.geolonia.com](https://github.com/geolonia/glyphs.geolonia.com) | HTML | Geolonia Maps または MapLibre GL JS で日本語を表示するためのフォントサーバー |
+ | [blue-marble](https://github.com/geolonia/blue-marble) | HTML | NASAのBlue Marbleデータセットのタイルサーバー |
+
+## ツール
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+| [mdhtml](https://github.com/geolonia/mdhtml) | JavaScript | Markdownファイルを独自テンプレートでHTMLに変換するCLIツール |
+| [shootbot](https://github.com/geolonia/shootbot) | JavaScript | レスポンシブWebデザインテスト用スクリーンショットCLIツール |
+| [planet-factory](https://github.com/geolonia/planet-factory) | Shell | Mapbox GL用ベクトルタイル開発環境セットアップツール |
+| [reserved-username](https://github.com/geolonia/reserved-username) | JavaScript | ユーザー名（root, admin等）を管理するためのJSONリストを生成・メンテナンスするツール |
+| [r53](https://github.com/geolonia/r53) | 未指定 | JSONファイルでDNSレコードを定義し、AWS Route 53のDNSレコードを自動更新するツール |
+
+## アプリケーション
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+| [tilecloud-editor](https://github.com/geolonia/tilecloud-editor) | JavaScript | 地図デザインのビジュアルエディター |
+| [editor](https://github.com/geolonia/editor) | TypeScript | Geoloniaマップ用にカスタマイズされたビジュアルスタイルエディタ |
+| [styles.geolonia.com](https://github.com/geolonia/styles.geolonia.com) | JavaScript | 地図スタイルの確認や検証のためのWebアプリケーション |
+| [geojson.tilecloud.io](https://github.com/geolonia/geojson.tilecloud.io) | JavaScript | 地図上でGeoJSONデータを編集・プレビューできるWebアプリ |
+| [app.geolonia.com](https://github.com/geolonia/app.geolonia.com) | TypeScript | Geoloniaのダッシュボード/管理画面Webアプリケーション |
+| [area-app](https://github.com/geolonia/area-app) | JavaScript | ユーザーが描いた領域の面積を東京ドーム何個分かで表示する地図アプリケーション |
+| [geojson.geolonia.com](https://github.com/geolonia/geojson.geolonia.com) | TypeScript | GeoJSONを視覚的に編集・作成できるエディター |
+| [mailless](https://github.com/geolonia/mailless) | TypeScript | 受け取ったメール情報をSlackに転送するシンプルなサーバーレスアプリケーション |
+| [preview](https://github.com/geolonia/preview) | JavaScript | GitHub上のstyle.jsonファイルを動的にロードして表示するWebアプリケーション |
+| [night-and-day](https://github.com/geolonia/night-and-day) | JavaScript | 昼夜の地図を連動させて操作できるインタラクティブマップ |
+| [pie-chart](https://github.com/geolonia/pie-chart) | JavaScript | 円グラフ形式で2つの地図スタイルを切り替え表示するインタラクティブマップ |
+
+
+## その他
+
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+| [logo](https://github.com/geolonia/logo) | 未指定 | Geoloniaのロゴの格納先 |
+| [tilecloud.io](https://github.com/geolonia/tilecloud.io) | HTML | |
+| [md-template](https://github.com/geolonia/md-template) | SCSS | mdhtmlと組み合わせて使う？ |
+| [docs.geolonia.com](https://github.com/geolonia/docs.geolonia.com) | SCSS | Geoloniaの技術系ドキュメント? |
+| [shaded.tiles.geolonia.com](https://github.com/geolonia/shaded.tiles.geolonia.com) | 未指定 | |
+| [slime](https://github.com/geolonia/slime) | HTML | Mapbox GL JS用のカスタムマップスタイル |
+| [geosearch.geolonia.com](https://github.com/geolonia/geosearch.geolonia.com) | TypeScript | |
+| [theme-park](https://github.com/geolonia/theme-park) | HTML | |
+| [basic-3d](https://github.com/geolonia/basic-3d) | 未指定 | Geolonia Mapのための3D地図スタイル定義 |
+| [tatooine](https://github.com/geolonia/tatooine) | 未指定 | 地図デザインテンプレート |
+| [free-referers](https://github.com/geolonia/free-referers) | JavaScript | |
+| [custom-svg-markers](https://github.com/geolonia/custom-svg-markers) | JavaScript | |
+| [detic](https://github.com/geolonia/detic) | JavaScript | |
+| [view-geojson](https://github.com/geolonia/view-geojson) | TypeScript | |
+| [cdn.geolonia.com](https://github.com/geolonia/cdn.geolonia.com) | Roff | |
+| [get-geolonia](https://github.com/geolonia/get-geolonia) | JavaScript | |
+| [gsi-style](https://github.com/geolonia/gsi-style) | 未指定 | |
+| [download.geolonia.com](https://github.com/geolonia/download.geolonia.com) | HTML | |
+| [create-map](https://github.com/geolonia/create-map) | JavaScript | |
+| [community-geocoder](https://github.com/geolonia/community-geocoder) | JavaScript | |
+| [outdoors](https://github.com/geolonia/outdoors) | 未指定 | |
+| [michinori.geolonia.com](https://github.com/geolonia/michinori.geolonia.com) | JavaScript | |
+| [japanese-admins](https://github.com/geolonia/japanese-admins) | JavaScript | |
+| [showcase.geolonia.com](https://github.com/geolonia/showcase.geolonia.com) | JavaScript | |
+| [naturalearthtiles](https://github.com/geolonia/naturalearthtiles) | 未指定 | |
+| [prefecture-tiles](https://github.com/geolonia/prefecture-tiles) | 未指定 | |
+| [vector-grids](https://github.com/geolonia/vector-grids) | JavaScript | |
+| [public-beta](https://github.com/geolonia/public-beta) | 未指定 | |
+| [cors-proxy](https://github.com/geolonia/cors-proxy) | JavaScript | |
+| [tileserverless](https://github.com/geolonia/tileserverless) | TypeScript | |
+| [openmaptiles](https://github.com/geolonia/openmaptiles) | PLpgSQL | |
+| [japanese-addresses](https://github.com/geolonia/japanese-addresses) | JavaScript | |
+| [japanese-numeral](https://github.com/geolonia/japanese-numeral) | TypeScript | |
+| [github-labels](https://github.com/geolonia/github-labels) | JavaScript | |
+| [issues.geolonia.com](https://github.com/geolonia/issues.geolonia.com) | TypeScript | |
+| [embed-address](https://github.com/geolonia/embed-address) | TypeScript | |
+| [japanese-boundaries](https://github.com/geolonia/japanese-boundaries) | 未指定 | |
+| [normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) | TypeScript | |
+| [fixed-map-plugin](https://github.com/geolonia/fixed-map-plugin) | HTML | |
+| [plugin-boilerplate](https://github.com/geolonia/plugin-boilerplate) | HTML | |
+| [view-with-google-plugin](https://github.com/geolonia/view-with-google-plugin) | HTML | |
+| [oceanus](https://github.com/geolonia/oceanus) | Python | |
+| [deck-mapbox-style](https://github.com/geolonia/deck-mapbox-style) | TypeScript | |
+| [sandbox](https://github.com/geolonia/sandbox) | 未指定 | |
+| [prop-id-api](https://github.com/geolonia/prop-id-api) | TypeScript | |
+| [censusarea](https://github.com/geolonia/censusarea) | Python | |
+| [titan](https://github.com/geolonia/titan) | Go | |
+| [normalize-japanese-addresses-app](https://github.com/geolonia/normalize-japanese-addresses-app) | 未指定 | |
+| [mokuroku-to-mbtiles](https://github.com/geolonia/mokuroku-to-mbtiles) | 未指定 | |
+| [tile-gsi-dem](https://github.com/geolonia/tile-gsi-dem) | JavaScript | |
+| [tile-sentinel2](https://github.com/geolonia/tile-sentinel2) | Python | |
+| [mask-plugin](https://github.com/geolonia/mask-plugin) | TypeScript | |
+| [amazon-location-service-example](https://github.com/geolonia/amazon-location-service-example) | HTML | |
+| [office-area-map](https://github.com/geolonia/office-area-map) | 未指定 | |
+| [more-sprites](https://github.com/geolonia/more-sprites) | JavaScript | |
+| [aws-example-2021-06-07](https://github.com/geolonia/aws-example-2021-06-07) | HTML | |
+| [water-tiles](https://github.com/geolonia/water-tiles) | Shell | |
+| [geo-scratch](https://github.com/geolonia/geo-scratch) | JavaScript | |
+| [dianthus](https://github.com/geolonia/dianthus) | 未指定 | |
+| [butter](https://github.com/geolonia/butter) | JavaScript | |
+| [scratch-style](https://github.com/geolonia/scratch-style) | 未指定 | |
+| [wmap](https://github.com/geolonia/wmap) | 未指定 | |
+| [deploy-to-cdn](https://github.com/geolonia/deploy-to-cdn) | 未指定 | |
+| [maps.geolonia.com](https://github.com/geolonia/maps.geolonia.com) | TypeScript | |
+| [eslint-config](https://github.com/geolonia/eslint-config) | JavaScript | |
+| [jisx0402](https://github.com/geolonia/jisx0402) | 未指定 | |
+| [ja-maplibre-gl-js](https://github.com/geolonia/ja-maplibre-gl-js) | TypeScript | |
+| [japanese-prefectural-capitals](https://github.com/geolonia/japanese-prefectural-capitals) | JavaScript | |
+| [open-reverse-geocoder](https://github.com/geolonia/open-reverse-geocoder) | 未指定 | |
+| [iss-on-geolonia](https://github.com/geolonia/iss-on-geolonia) | HTML | |
+| [basic-gsiseamlessphoto](https://github.com/geolonia/basic-gsiseamlessphoto) | HTML | |
+| [utils](https://github.com/geolonia/utils) | TypeScript | |
+| [embed-react](https://github.com/geolonia/embed-react) | TypeScript | |
+| [geolonia-blocks](https://github.com/geolonia/geolonia-blocks) | PHP | |
+| [osm-address-normalize](https://github.com/geolonia/osm-address-normalize) | TypeScript | |
+| [gsi-mbtiles-tool](https://github.com/geolonia/gsi-mbtiles-tool) | TypeScript | |
+| [ja-maplibre-gl-js-docs](https://github.com/geolonia/ja-maplibre-gl-js-docs) | JavaScript | |
+| [mbgl-renderer](https://github.com/geolonia/mbgl-renderer) | JavaScript | |
+| [mapbox-gl-native-node](https://github.com/geolonia/mapbox-gl-native-node) | 未指定 | |
+| [signage](https://github.com/geolonia/signage) | TypeScript | |
+| [japanese-municipalities-consolidation](https://github.com/geolonia/japanese-municipalities-consolidation) | JavaScript | |
+| [spritezero-cli](https://github.com/geolonia/spritezero-cli) | 未指定 | |
+| [style-compare](https://github.com/geolonia/style-compare) | JavaScript | |
+| [itoma](https://github.com/geolonia/itoma) | TypeScript | |
+| [tilehash-beta](https://github.com/geolonia/tilehash-beta) | TypeScript | |
+| [realtime-tracker](https://github.com/geolonia/realtime-tracker) | TypeScript | |
+| [blue-hawaii](https://github.com/geolonia/blue-hawaii) | 未指定 | |
+| [zfxy](https://github.com/geolonia/zfxy) | TypeScript | |
+| [style-demo-source](https://github.com/geolonia/style-demo-source) | 未指定 | |
+| [osm-miniplanets](https://github.com/geolonia/osm-miniplanets) | TypeScript | |
+| [world-heritage-map](https://github.com/geolonia/world-heritage-map) | TypeScript | |
+| [coord-picker](https://github.com/geolonia/coord-picker) | TypeScript | |
+| [base-registry-tools](https://github.com/geolonia/base-registry-tools) | Python | |
+| [go-noto-universal](https://github.com/geolonia/go-noto-universal) | Shell | |
+| [plateau-projection](https://github.com/geolonia/plateau-projection) | HTML | |
+| [pmtiles_tool](https://github.com/geolonia/pmtiles_tool) | Rust | |
+| [geolonia-locations-action](https://github.com/geolonia/geolonia-locations-action) | Shell | |
+| [world-heritage-map_v2](https://github.com/geolonia/world-heritage-map_v2) | JavaScript | |
+| [cra-template](https://github.com/geolonia/cra-template) | TypeScript | |
+| [x-geo-scratch](https://github.com/geolonia/x-geo-scratch) | JavaScript | |
+| [app-components](https://github.com/geolonia/app-components) | 未指定 | |
+| [mbtiles_tool](https://github.com/geolonia/mbtiles_tool) | Rust | |
+| [pref-stats-map](https://github.com/geolonia/pref-stats-map) | TypeScript | |
+| [map-render-benchmark](https://github.com/geolonia/map-render-benchmark) | JavaScript | |
+| [normalize-any-latlng](https://github.com/geolonia/normalize-any-latlng) | TypeScript | |
+| [opendata](https://github.com/geolonia/opendata) | TypeScript | |
+| [vector-tiles-api](https://github.com/geolonia/vector-tiles-api) | 未指定 | |
+| [spatial-id-request-sdk](https://github.com/geolonia/spatial-id-request-sdk) | TypeScript | |
+| [jp_plateau_tool](https://github.com/geolonia/jp_plateau_tool) | Rust | |
+| [spatial-id-demo-construction](https://github.com/geolonia/spatial-id-demo-construction) | JavaScript | |
+| [example-opendata](https://github.com/geolonia/example-opendata) | 未指定 | |
+| [sprite-one](https://github.com/geolonia/sprite-one) | 未指定 | |
+| [sandbox-guess-geolonia-addresses](https://github.com/geolonia/sandbox-guess-geolonia-addresses) | JavaScript | |
+| [mojxml2map](https://github.com/geolonia/mojxml2map) | JavaScript | |
+| [moj-counts](https://github.com/geolonia/moj-counts) | JavaScript | |
+| [chiban-viewer](https://github.com/geolonia/chiban-viewer) | TypeScript | |
+| [moj-map](https://github.com/geolonia/moj-map) | 未指定 | |
+| [chiban-zahyo-map](https://github.com/geolonia/chiban-zahyo-map) | TypeScript | |
+| [coordinate-conversion](https://github.com/geolonia/coordinate-conversion) | JavaScript | |
+| [poc-reverse-geocoder](https://github.com/geolonia/poc-reverse-geocoder) | TypeScript | |
+| [japanese-addresses-chiban](https://github.com/geolonia/japanese-addresses-chiban) | TypeScript | |
+| [nja-demo](https://github.com/geolonia/nja-demo) | JavaScript | |
+| [chiban-kokyozahyo-area](https://github.com/geolonia/chiban-kokyozahyo-area) | JavaScript | |
+| [gsimaps-fork](https://github.com/geolonia/gsimaps-fork) | JavaScript | |
+| [opendata-editor](https://github.com/geolonia/opendata-editor) | TypeScript | |
+| [takamatsu-demo](https://github.com/geolonia/takamatsu-demo) | TypeScript | |
+| [cityos-sdk](https://github.com/geolonia/cityos-sdk) | TypeScript | |
+| [japanese-admins-kokuseichosa](https://github.com/geolonia/japanese-admins-kokuseichosa) | Shell | |
+| [takamatsu-scratch](https://github.com/geolonia/takamatsu-scratch) | JavaScript | |
+| [mbgl-split-download-control](https://github.com/geolonia/mbgl-split-download-control) | HTML | |
+| [takamatsu-map-cli](https://github.com/geolonia/takamatsu-map-cli) | JavaScript | |
+| [takamatsu-map-template](https://github.com/geolonia/takamatsu-map-template) | 未指定 | |
+| [cucumber-for-smartcity](https://github.com/geolonia/cucumber-for-smartcity) | JavaScript | |
+| [moj-extract-city-border](https://github.com/geolonia/moj-extract-city-border) | JavaScript | |
+| [geolonia-ai-frontend](https://github.com/geolonia/geolonia-ai-frontend) | TypeScript | |
+| [mapbox-pmtiles-repro](https://github.com/geolonia/mapbox-pmtiles-repro) | JavaScript | |
+| [i18n-ja-maplibre-gl-js-docs](https://github.com/geolonia/i18n-ja-maplibre-gl-js-docs) | 未指定 | |
+| [mapbox-gl-draw](https://github.com/geolonia/mapbox-gl-draw) | JavaScript | |
+| [takamatsu-event-map](https://github.com/geolonia/takamatsu-event-map) | TypeScript | |
+| [excel-to-csv-action](https://github.com/geolonia/excel-to-csv-action) | JavaScript | |
+| [convert-to-geojson-action](https://github.com/geolonia/convert-to-geojson-action) | JavaScript | |
+| [gsi-gmldem1a-scripts](https://github.com/geolonia/gsi-gmldem1a-scripts) | JavaScript | |
+| [sandbox-dem-flooding](https://github.com/geolonia/sandbox-dem-flooding) | JavaScript | |
+| [data-png-tools](https://github.com/geolonia/data-png-tools) | 未指定 | |
+| [smartcity-data-upload-action](https://github.com/geolonia/smartcity-data-upload-action) | JavaScript | |
+| [smartcity-data-upload-template](https://github.com/geolonia/smartcity-data-upload-template) | 未指定 | |
+| [hippocrates](https://github.com/geolonia/hippocrates) | TypeScript | |
+| [hippocrates-template](https://github.com/geolonia/hippocrates-template) | 未指定 | |
+| [itami-smart-map](https://github.com/geolonia/itami-smart-map) | 未指定 | |
+| [merge-schedule-action](https://github.com/geolonia/merge-schedule-action) | TypeScript | |
+| [local-spatial-id-js-sdk](https://github.com/geolonia/local-spatial-id-js-sdk) | TypeScript | |
+| [wkx](https://github.com/geolonia/wkx) | 未指定 | |
+| [mlit-administrative-district](https://github.com/geolonia/mlit-administrative-district) | 未指定 | |
+| [geolonia-open-gis](https://github.com/geolonia/geolonia-open-gis) | PHP | |
+| [geojson-lookfor](https://github.com/geolonia/geojson-lookfor) | TypeScript | |
+| [jismesh-tile-tools](https://github.com/geolonia/jismesh-tile-tools) | JavaScript | |
+| [kaken-3dmap-demo-maplibre](https://github.com/geolonia/kaken-3dmap-demo-maplibre) | HTML | |
+| [kaken-3dmap-demo-cesium](https://github.com/geolonia/kaken-3dmap-demo-cesium) | HTML | |
+| [smartcity-data-platform-upload-action](https://github.com/geolonia/smartcity-data-platform-upload-action) | TypeScript | |
+| [smartcity-smartmap-v2-cli](https://github.com/geolonia/smartcity-smartmap-v2-cli) | Shell | |
+| [scra](https://github.com/geolonia/scra) | 未指定 | |
+| [ouranos-gex-lib-for-JavaScript](https://github.com/geolonia/ouranos-gex-lib-for-JavaScript) | 未指定 | |
+| [sphericalmercator](https://github.com/geolonia/sphericalmercator) | Rust | |
+| [yaizu-ws-sample](https://github.com/geolonia/yaizu-ws-sample) | TypeScript | |
+| [anabuki-housing-sprite](https://github.com/geolonia/anabuki-housing-sprite) | HTML | |
+| [spatial-id-js-sdk](https://github.com/geolonia/spatial-id-js-sdk) | TypeScript | |
+| [yaizu-ws-sample-url](https://github.com/geolonia/yaizu-ws-sample-url) | TypeScript | |
+| [japanese-addresses-v2](https://github.com/geolonia/japanese-addresses-v2) | TypeScript | |
+| [wsdebug](https://github.com/geolonia/wsdebug) | TypeScript | |
+| [peter-evans-rebase](https://github.com/geolonia/peter-evans-rebase) | TypeScript | |
+| [data-jp-railroads](https://github.com/geolonia/data-jp-railroads) | Shell | |
+| [tochigi-pref-opendata](https://github.com/geolonia/tochigi-pref-opendata) | 未指定 | |
+| [handbook.geolonia.com](https://github.com/geolonia/handbook.geolonia.com) | HTML | |
+| [nobeoka-city-opendata](https://github.com/geolonia/nobeoka-city-opendata) | 未指定 | |
+| [gsi-terrain](https://github.com/geolonia/gsi-terrain) | JavaScript | |
+| [gsi-terrain-style](https://github.com/geolonia/gsi-terrain-style) | JavaScript | |
