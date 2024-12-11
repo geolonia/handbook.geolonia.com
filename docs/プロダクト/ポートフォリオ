@@ -1,4 +1,4 @@
-# Geolonia ポートフォリオ
+# Geolonia リポジトリ一覧
 
 ## Mapbox GL JSのプラグイン
 | リポジトリ | 機能 |
@@ -8,9 +8,26 @@
 | [mbgl-fork-me-control](https://github.com/geolonia/mbgl-fork-me-control) | 地図上に「Fork me on GitHub」リボンを追加する |
 | [mbgl-circle-marker](https://github.com/geolonia/mbgl-circle-marker) |　POI（地点情報）を円形マーカーで表示する　|
 | [mbgl-japanese-prefs](https://github.com/geolonia/mbgl-japanese-prefs) | 日本の都道府県を表示し、スタイリングやラベル表示をカスタマイズする |
-| [mbgl-gesture-handling](https://github.com/geolonia/mbgl-gesture-handling) | JavaScript | 地図の意図しない操作を防止する |
-| [mgbl-open-with-control](https://github.com/geolonia/mgbl-open-with-control) | TypeScript | 表示している地図に、他の地図サービス（Google Maps等）で同じ位置を開くためのリンクを追加する |
-| [mbgl-raster-tile-control](https://github.com/geolonia/mbgl-raster-tile-control) | TypeScript | ベクトル地図上にラスタータイル（PNG等）をオーバーレイ表示する |
+| [mbgl-gesture-handling](https://github.com/geolonia/mbgl-gesture-handling) | 地図の意図しない操作を防止する |
+| [mgbl-open-with-control](https://github.com/geolonia/mgbl-open-with-control) | 表示している地図に、他の地図サービス（Google Maps等）で同じ位置を開くためのリンクを追加する |
+| [mbgl-raster-tile-control](https://github.com/geolonia/mbgl-raster-tile-control) | ベクトル地図上にラスタータイル（PNG等）をオーバーレイ表示する |
+
+## JSのプラグイン
+| リポジトリ | 機能 |
+| -------- | ---- |
+| [get-geolonia](https://github.com/geolonia/get-geolonia) | Geolonia地図を表示するためのHTMLを生成する |
+| [japanese-numeral](https://github.com/geolonia/japanese-numeral) | 漢数字と数値を相互変換する |
+| [embed-address](https://github.com/geolonia/embed-address) | TypeScript | APIキーベースで利用できる住所入力フォームコンポーネント |
+| [fixed-map-plugin](https://github.com/geolonia/fixed-map-plugin) | HTML | Geolonia地図を固定表示する |
+ | [view-with-google-plugin](https://github.com/geolonia/view-with-google-plugin) | HTML | Google Maps へのリンクを追加する |
+
+## npmパッケージ
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+| [normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) | TypeScript | 日本語住所正規化N |
+ | [mask-plugin](https://github.com/geolonia/mask-plugin) | TypeScript | 地図をマスクして一部だけを表示する |
+ | [more-sprites](https://github.com/geolonia/more-sprites) | JavaScript | Geolonia の地図アイコンセットを拡張するためのCLIツール |
+
 
 ## ライブラリ
 | リポジトリ | 主要言語 | 概要 |
@@ -18,6 +35,8 @@
 | [embed](https://github.com/geolonia/embed) | TypeScript | HTML属性での詳細な地図制御とプラグインによる拡張が可能な、Mapbox GL JS互換の地図埋め込みライブラリ
  | [tiny-tileserver](https://github.com/geolonia/tiny-tileserver) | JavaScript |地図開発者向けのテスト用軽量なベクタータイルサーバー |
  | [japanese-prefectures](https://github.com/geolonia/japanese-prefectures) | 未指定 | Web用にカスタマイズ可能な都道府県別SVG地図 |
+ | [detic](https://github.com/geolonia/detic) | JavaScript | 緯度経度から日本の都道府県を判定するリバースジオコーダーライブラリ |
+ | [japanese-addresses](https://github.com/geolonia/japanese-addresses) | JavaScript | 日本の住所データベースとそのAPIを提供するデータセット |
 
 ## サーバー
 | リポジトリ | 主要言語 | 概要 |
@@ -25,6 +44,7 @@
  [tiny-tileserver](https://github.com/geolonia/tiny-tileserver) | JavaScript |地図開発者向けのテスト用軽量なベクタータイルサーバー |
  | [glyphs.geolonia.com](https://github.com/geolonia/glyphs.geolonia.com) | HTML | Geolonia Maps または MapLibre GL JS で日本語を表示するためのフォントサーバー |
  | [blue-marble](https://github.com/geolonia/blue-marble) | HTML | NASAのBlue Marbleデータセットのタイルサーバー |
+ | [naturalearthtiles](https://github.com/geolonia/naturalearthtiles) | 未指定 | Natural Earthデータセットをベクトルタイルとラスタータイルに変換・提供する |
 
 ## ツール
 | リポジトリ | 主要言語 | 概要 |
@@ -34,6 +54,16 @@
 | [planet-factory](https://github.com/geolonia/planet-factory) | Shell | Mapbox GL用ベクトルタイル開発環境セットアップツール |
 | [reserved-username](https://github.com/geolonia/reserved-username) | JavaScript | ユーザー名（root, admin等）を管理するためのJSONリストを生成・メンテナンスするツール |
 | [r53](https://github.com/geolonia/r53) | 未指定 | JSONファイルでDNSレコードを定義し、AWS Route 53のDNSレコードを自動更新するツール |
+| [view-geojson](https://github.com/geolonia/view-geojson) | TypeScript | GeoJSONファイルをブラウザで可視化するCLIツール |
+| [create-map](https://github.com/geolonia/create-map) | JavaScript | Geolonia地図アプリケーションの雛形を生成するCLIツール |
+| [openmaptiles](https://github.com/geolonia/openmaptiles) | PLpgSQL | OpenStreetMapデータからベクトルタイルを生成するためのスキーマ定義とツールセット |
+| [github-labels](https://github.com/geolonia/github-labels) | JavaScript | GitHubのラベル管理自動化ツール |
+| [oceanus](https://github.com/geolonia/oceanus) | Python | Natural Earthデータのベクトルタイル変換CLIツール |
+| [censusarea](https://github.com/geolonia/censusarea) | Python | H27国勢調査小地域のデータから行政界ベクトルタイルを生成するツール |
+| [titan](https://github.com/geolonia/titan) | Go | GeoFabrik社のダウンロードサイトからosm.pbf形式ファイルから、GeoJSON形式ファイルへ変換するスクリプト？ |
+| [mokuroku-to-mbtiles](https://github.com/geolonia/mokuroku-to-mbtiles) | 未指定 | 国土地理院ベクトルタイルのMBTiles変換スクリプト |
+| [tile-gsi-dem](https://github.com/geolonia/tile-gsi-dem) | JavaScript | 国土地理院DEM標高データのMapbox Terrain-RGB変換ツール |
+| [water-tiles](https://github.com/geolonia/water-tiles) | Shell | OpenStreetMap データから water のレイヤーしか入っていない mbtiles を作るツール |
 
 ## アプリケーション
 | リポジトリ | 主要言語 | 概要 |
@@ -49,6 +79,20 @@
 | [preview](https://github.com/geolonia/preview) | JavaScript | GitHub上のstyle.jsonファイルを動的にロードして表示するWebアプリケーション |
 | [night-and-day](https://github.com/geolonia/night-and-day) | JavaScript | 昼夜の地図を連動させて操作できるインタラクティブマップ |
 | [pie-chart](https://github.com/geolonia/pie-chart) | JavaScript | 円グラフ形式で2つの地図スタイルを切り替え表示するインタラクティブマップ |
+| [custom-svg-markers](https://github.com/geolonia/custom-svg-markers) | JavaScript | 和歌山県の道路規制情報をGeoloniaマップ上に、規制状況に応じて色分けされたマーカーとポップアップで表示するデモ |
+| [download.geolonia.com](https://github.com/geolonia/download.geolonia.com) | HTML | 高解像度に対応した地図画像生成アプリ |
+| [michinori.geolonia.com](https://github.com/geolonia/michinori.geolonia.com) | JavaScript | ルート作成・編集のための地図アプリケーション |
+| [vector-grids](https://github.com/geolonia/vector-grids) | JavaScript | ベクターグリット情報可視化Webアプリケーション |
+| [tileserverless](https://github.com/geolonia/tileserverless) | TypeScript | サーバーレスアーキテクチャを用いたタイルサーバー実装アプリ |
+| [issues.geolonia.com](https://github.com/geolonia/issues.geolonia.com) | TypeScript | GitHub Issue一元管理Webアプリケーション |
+| [office-area-map](https://github.com/geolonia/office-area-map) | 未指定 | Geolonia オフィス周辺スポット |
+| [geo-scratch](https://github.com/geolonia/geo-scratch) | JavaScript | Scratch 3.0をGeolonia地図機能と統合したカスタムビルド |
+
+## API
+| リポジトリ | 主要言語 | 概要 |
+|------------|----------|------|
+| [japanese-admins](https://github.com/geolonia/japanese-admins) | JavaScript | 日本の行政区域のGeoJSONデータを提供するWebAPI |
+| [prop-id-api](https://github.com/geolonia/prop-id-api) | TypeScript | 不動産ID管理用のサーバーレスAPI |
 
 
 ## その他
@@ -65,56 +109,26 @@
 | [theme-park](https://github.com/geolonia/theme-park) | HTML | |
 | [basic-3d](https://github.com/geolonia/basic-3d) | 未指定 | Geolonia Mapのための3D地図スタイル定義 |
 | [tatooine](https://github.com/geolonia/tatooine) | 未指定 | 地図デザインテンプレート |
-| [free-referers](https://github.com/geolonia/free-referers) | JavaScript | |
-| [custom-svg-markers](https://github.com/geolonia/custom-svg-markers) | JavaScript | |
-| [detic](https://github.com/geolonia/detic) | JavaScript | |
-| [view-geojson](https://github.com/geolonia/view-geojson) | TypeScript | |
-| [cdn.geolonia.com](https://github.com/geolonia/cdn.geolonia.com) | Roff | |
-| [get-geolonia](https://github.com/geolonia/get-geolonia) | JavaScript | |
-| [gsi-style](https://github.com/geolonia/gsi-style) | 未指定 | |
-| [download.geolonia.com](https://github.com/geolonia/download.geolonia.com) | HTML | |
-| [create-map](https://github.com/geolonia/create-map) | JavaScript | |
-| [community-geocoder](https://github.com/geolonia/community-geocoder) | JavaScript | |
-| [outdoors](https://github.com/geolonia/outdoors) | 未指定 | |
-| [michinori.geolonia.com](https://github.com/geolonia/michinori.geolonia.com) | JavaScript | |
-| [japanese-admins](https://github.com/geolonia/japanese-admins) | JavaScript | |
-| [showcase.geolonia.com](https://github.com/geolonia/showcase.geolonia.com) | JavaScript | |
-| [naturalearthtiles](https://github.com/geolonia/naturalearthtiles) | 未指定 | |
-| [prefecture-tiles](https://github.com/geolonia/prefecture-tiles) | 未指定 | |
-| [vector-grids](https://github.com/geolonia/vector-grids) | JavaScript | |
+| [free-referers](https://github.com/geolonia/free-referers) | JavaScript | Geolonia API利用可能なドメインリスト |
+| [cdn.geolonia.com](https://github.com/geolonia/cdn.geolonia.com) | Roff | 地図関連リソースを配信するCDNサーバー/ビルドシステム|
+| [gsi-style](https://github.com/geolonia/gsi-style) | 未指定 | 地理院地図 Vector のスタイルをダンプしたファイル倉庫 |
+| [community-geocoder](https://github.com/geolonia/community-geocoder) | JavaScript | オープンソースの住所→緯度経度変換API |
+| [outdoors](https://github.com/geolonia/outdoors) | 未指定 | 地理院地図とOpenStreetMapベースのGeolonia用地図スタイル定義 |
+| [showcase.geolonia.com](https://github.com/geolonia/showcase.geolonia.com) | JavaScript | 地図可視化デモサイト |
+| [prefecture-tiles](https://github.com/geolonia/prefecture-tiles) | 未指定 |  |
 | [public-beta](https://github.com/geolonia/public-beta) | 未指定 | |
 | [cors-proxy](https://github.com/geolonia/cors-proxy) | JavaScript | |
-| [tileserverless](https://github.com/geolonia/tileserverless) | TypeScript | |
-| [openmaptiles](https://github.com/geolonia/openmaptiles) | PLpgSQL | |
-| [japanese-addresses](https://github.com/geolonia/japanese-addresses) | JavaScript | |
-| [japanese-numeral](https://github.com/geolonia/japanese-numeral) | TypeScript | |
-| [github-labels](https://github.com/geolonia/github-labels) | JavaScript | |
-| [issues.geolonia.com](https://github.com/geolonia/issues.geolonia.com) | TypeScript | |
-| [embed-address](https://github.com/geolonia/embed-address) | TypeScript | |
-| [japanese-boundaries](https://github.com/geolonia/japanese-boundaries) | 未指定 | |
-| [normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) | TypeScript | |
-| [fixed-map-plugin](https://github.com/geolonia/fixed-map-plugin) | HTML | |
-| [plugin-boilerplate](https://github.com/geolonia/plugin-boilerplate) | HTML | |
-| [view-with-google-plugin](https://github.com/geolonia/view-with-google-plugin) | HTML | |
-| [oceanus](https://github.com/geolonia/oceanus) | Python | |
-| [deck-mapbox-style](https://github.com/geolonia/deck-mapbox-style) | TypeScript | |
+| [japanese-boundaries](https://github.com/geolonia/japanese-boundaries) | 未指定 | 全国町丁目レベルの領域データ　|
+| [plugin-boilerplate](https://github.com/geolonia/plugin-boilerplate) | HTML | Geolonia地図プラグイン開発用テンプレート |
+| [view-with-google-plugin](https://github.com/geolonia/view-with-google-plugin) | HTML | Google Maps へのリンクを追加する Geolonia プラグイン |
+| [deck-mapbox-style](https://github.com/geolonia/deck-mapbox-style) | TypeScript | Deck.GL用Mapboxスタイル変換パッケージ |
 | [sandbox](https://github.com/geolonia/sandbox) | 未指定 | |
-| [prop-id-api](https://github.com/geolonia/prop-id-api) | TypeScript | |
-| [censusarea](https://github.com/geolonia/censusarea) | Python | |
-| [titan](https://github.com/geolonia/titan) | Go | |
 | [normalize-japanese-addresses-app](https://github.com/geolonia/normalize-japanese-addresses-app) | 未指定 | |
-| [mokuroku-to-mbtiles](https://github.com/geolonia/mokuroku-to-mbtiles) | 未指定 | |
-| [tile-gsi-dem](https://github.com/geolonia/tile-gsi-dem) | JavaScript | |
-| [tile-sentinel2](https://github.com/geolonia/tile-sentinel2) | Python | |
-| [mask-plugin](https://github.com/geolonia/mask-plugin) | TypeScript | |
-| [amazon-location-service-example](https://github.com/geolonia/amazon-location-service-example) | HTML | |
-| [office-area-map](https://github.com/geolonia/office-area-map) | 未指定 | |
-| [more-sprites](https://github.com/geolonia/more-sprites) | JavaScript | |
-| [aws-example-2021-06-07](https://github.com/geolonia/aws-example-2021-06-07) | HTML | |
-| [water-tiles](https://github.com/geolonia/water-tiles) | Shell | |
-| [geo-scratch](https://github.com/geolonia/geo-scratch) | JavaScript | |
-| [dianthus](https://github.com/geolonia/dianthus) | 未指定 | |
-| [butter](https://github.com/geolonia/butter) | JavaScript | |
+| [tile-sentinel2](https://github.com/geolonia/tile-sentinel2) | Python | Sentinel2 衛星画像タイル |
+| [amazon-location-service-example](https://github.com/geolonia/amazon-location-service-example) | HTML | Amazon Location Service の地図タイルを Geolonia Embed API で拡張するデモ |
+| [aws-example-2021-06-07](https://github.com/geolonia/aws-example-2021-06-07) | HTML | Amazon Location Service を試してみた！（２）実践編 デモ |
+| [dianthus](https://github.com/geolonia/dianthus) | 未指定 | 国土地理院とOpenStreetMapデータに基づくGeolonia用カスタム地図スタイル定義 |
+| [butter](https://github.com/geolonia/butter) | JavaScript | Geolonia向けのカスタム地図スタイル定義（Butter テーマ） |
 | [scratch-style](https://github.com/geolonia/scratch-style) | 未指定 | |
 | [wmap](https://github.com/geolonia/wmap) | 未指定 | |
 | [deploy-to-cdn](https://github.com/geolonia/deploy-to-cdn) | 未指定 | |
