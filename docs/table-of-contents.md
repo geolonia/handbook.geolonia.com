@@ -63,13 +63,13 @@
 - Risk Management and Dispute Resolution
 - Trade Compliance
 ### 開発
-- 顧客サポートチーム
-- Development Department
-- Incubation Engineering Department
-- Infrastructure Department
-- Quality Department
-- Security Practices
-- Open Source
+- [Geolonia のソフトウエア開発](/組織別/開発/development-engineering.html)
+- [開発手法](/組織別/開発/development-method.html)
+- [オンボーディング](/組織別/開発/developer-onboarding.html)
+- [GitHub アカウント運用](/組織別/開発/github-account-operations.html)
+- [開発用PC&データ取扱ルール](/組織別/開発/pc-security-guidelines.html)
+- [プロジェクト運用方針](/組織別/開発/project-management-policy.html)
+- [リーディングリスト](/組織別/開発/readinglist.html)
 ### 経理
 - Accounts Payable
 - Accounts Receivable
