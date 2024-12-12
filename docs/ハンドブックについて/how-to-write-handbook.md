@@ -2,7 +2,7 @@
 
 ## 編集場所
 
-このハンドブックの編集は、[ハンドブック編集用の GitHub リポジトリ]([url](https://github.com/geolonia/handbook.geolonia.com ))で行っています。
+このハンドブックの編集は、[ハンドブック編集用の GitHub リポジトリ](https://github.com/geolonia/handbook.geolonia.com)で行っています。
 
 
 ## マークダウンについて
