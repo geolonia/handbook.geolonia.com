@@ -135,7 +135,7 @@
 | [normalize-any-latlng](https://github.com/geolonia/normalize-any-latlng) | 様々な形式の緯度経度文字列を標準的な10進数表記に変換するライブラリ |
 | [tilehash-beta](https://github.com/geolonia/tilehash-beta) | 地図タイル座標のエンコーディングライブラリ |
 | [detic](https://github.com/geolonia/detic) |  緯度経度から日本の都道府県を判定するリバースジオコーダーライブラリ |
-| [censusarea](https://github.com/geolonia/censusarea) | Python | H27国勢調査小地域のデータから行政界ベクトルタイルを生成するツール |
+| [censusarea](https://github.com/geolonia/censusarea) | H27国勢調査小地域のデータから行政界ベクトルタイルを生成するツール |
 | [titan](https://github.com/geolonia/titan) | GeoFabrik社のダウンロードサイトからosm.pbf形式ファイルから、GeoJSON形式ファイルへ変換するスクリプト？ |
 | [mokuroku-to-mbtiles](https://github.com/geolonia/mokuroku-to-mbtiles) | 国土地理院ベクトルタイルのMBTiles変換スクリプト |
 | [tile-gsi-dem](https://github.com/geolonia/tile-gsi-dem) | 国土地理院DEM標高データのMapbox Terrain-RGB変換ツール |
@@ -154,7 +154,7 @@
 | [geojson-lookfor](https://github.com/geolonia/geojson-lookfor) | GeoJSONフィーチャー検索ライブラリ |
 | [jismesh-tile-tools](https://github.com/geolonia/jismesh-tile-tools) | 浸水想定区域メッシュデータ変換するCLIツール |
 | [smartcity-smartmap-v2-cli](https://github.com/geolonia/smartcity-smartmap-v2-cli) | Excelで管理された地理空間データ設定をベクトルタイルとメニュー設定に変換するCLIツール |
-| [sphericalmercator](https://github.com/geolonia/sphericalmercator) | Rust | 球面メルカトル図法の座標変換を行うRustライブラリ? |
+| [sphericalmercator](https://github.com/geolonia/sphericalmercator) | 球面メルカトル図法の座標変換を行うRustライブラリ? |
 | [japanese-addresses-v2](https://github.com/geolonia/japanese-addresses-v2) | 　日本全国の住所データをAPI化するためのデータ処理・配信ツール　|
 | [data-jp-railroads](https://github.com/geolonia/data-jp-railroads) | 国土数値情報の鉄道データをWeb地図用のGeoJSONフォーマットに変換・最適化するCLIツール? |
 
