@@ -190,6 +190,7 @@
 | [geolonia-open-gis](https://github.com/geolonia/geolonia-open-gis) | WordPressのGeolonia Maps連携プラグイン |
 | [create-map](https://github.com/geolonia/create-map) |  Geolonia Mapsアプリケーションの雛形を生成するCLIツール |
 | [gsi-terrain](https://github.com/geolonia/gsi-terrain) | Geolonia Maps向けの国土地理院ベースの地図スタイルを、YMLファイルで簡単にカスタマイズできるテンプレート |
+| [more-sprites](https://github.com/geolonia/more-sprites) |  Geoloniaの地図アイコンセットを拡張するためのCLIツール |
 
 
 
@@ -220,7 +221,6 @@
 | [view-geojson](https://github.com/geolonia/view-geojson) | GeoJSONファイルをブラウザで可視化するCLIツール |
 | [mask-plugin](https://github.com/geolonia/mask-plugin) | 地図をマスクして一部だけを表示する |
 | [utils](https://github.com/geolonia/utils) | ユーティリティ関数を提供する |
-| [more-sprites](https://github.com/geolonia/more-sprites) |  Geoloniaの地図アイコンセットを拡張するためのCLIツール |
 | [japanese-numeral](https://github.com/geolonia/japanese-numeral) | 漢数字と数値を相互変換する |
 | [planet-factory](https://github.com/geolonia/planet-factory) | Mapbox GL用ベクトルタイル開発環境セットアップツール |
 | [r53](https://github.com/geolonia/r53) | JSONファイルでDNSレコードを定義し、AWS Route 53のDNSレコードを自動更新するツール |
