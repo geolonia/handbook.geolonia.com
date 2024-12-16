@@ -66,6 +66,7 @@
 - [Geolonia のソフトウエア開発](/組織別/開発/development-engineering.html)
 - [開発手法](/組織別/開発/development-method.html)
 - [オンボーディング](/組織別/開発/developer-onboarding.html)
+- [AWSアカウント運用](/組織別/開発/aws-account-policy.html)
 - [GitHub アカウント運用](/組織別/開発/github-account-operations.html)
 - [開発用PC&データ取扱ルール](/組織別/開発/pc-security-guidelines.html)
 - [プロジェクト運用方針](/組織別/開発/project-management-policy.html)
