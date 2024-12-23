@@ -68,6 +68,8 @@
 - [オンボーディング](/組織別/開発/developer-onboarding.html)
 - [AWSアカウント運用](/組織別/開発/aws-account-policy.html)
 - [GitHub アカウント運用](/組織別/開発/github-account-operations.html)
+- [AWS アカウント命名規則](/組織別/開発/naming-rule-aws.html)
+- [Git リポジトリ命名規則](/組織別/開発/naming-rule-gitrepo.html)
 - [開発用PC&データ取扱ルール](/組織別/開発/pc-security-guidelines.html)
 - [プロジェクト運用方針](/組織別/開発/project-management-policy.html)
 - [リーディングリスト](/組織別/開発/readinglist.html)
