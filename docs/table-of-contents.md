@@ -71,6 +71,7 @@
 - [開発用PC&データ取扱ルール](/組織別/開発/pc-security-guidelines.html)
 - [プロジェクト運用方針](/組織別/開発/project-management-policy.html)
 - [リーディングリスト](/組織別/開発/readinglist.html)
+- [推奨拡張機能・ツール](/組織別/開発/recommend-plugin.html)
 - 運用・設定ガイド
     - [DNS ドメイン登録方法](/組織別/開発/運用・設定ガイド/domain-registration.html)
     - [配信用タイルセットのアップロード](/組織別/開発/運用・設定ガイド/upload-tileset.html)
