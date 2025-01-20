@@ -4,7 +4,7 @@
         "no-mix-dearu-desumasu": {
           "preferInHeader": "",
           "preferInBody": "ですます",
-          "preferInList": "である",
+          "preferInList": "",
           "strict": false
         },
         "ja-no-weak-phrase": true,
