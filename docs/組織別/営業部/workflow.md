@@ -33,7 +33,7 @@
 ## 3 案件化
 案件化とは、購買意欲の高い顧客に対し、提案書・見積書を作成し、受注に向けた活動を本格的に行うことをいい、営業部の担当者は、以下の作業を行います。
 
-1. Boardへ顧客・案件登録を行います。
+1. [Board へ顧客・案件登録](https://docs.google.com/presentation/d/13sVXoxf8_0uDy7jWUZ6PGSSZIfuAgl_I/edit#slide=id.p12)を行います。
 2. Google ドライブの顧客・案件フォルダを作成します。
 
 <!-- TODO: プロダクト仕様書を作成する -->
