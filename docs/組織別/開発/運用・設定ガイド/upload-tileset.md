@@ -41,7 +41,11 @@ Geolonia でタイルを配信する基盤は `tileserver.geolonia.com` (dev環�
 1. `geolonia-admin pmtiles deploy 0️⃣ v1 1️⃣`
 
 ## 正しくアップロードされたか確認する
-```curl -H "Origin: http://localhost:3000" "https://tileserver.geolonia.com/タイルセット名/tiles.json?key=YOUR-API-KEY"```
+```
+curl \
+  -H "Origin: http://localhost:3000" \
+  "https://tileserver.geolonia.com/タイルセット名/tiles.json?key=YOUR-API-KEY"
+```
 
 開発環境の場合は、`tileserver-dev.geolonia.com`
 
