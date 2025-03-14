@@ -48,4 +48,4 @@ Geolonia でタイルを配信する基盤は `tileserver.geolonia.com` (dev環�
 ## タイルセットのダウンロード
 以下でアップロードしたタイルセットのダウンロードができます。
 
-```geolonia-admin pmtiles download v1 タイルセット名```
+```geolonia-admin pmtiles download v1 タイルセット名 output.pmtiles```
