@@ -5,11 +5,11 @@
 
 - 自己紹介の作成
   - Notionの[自己紹介ページ](https://www.notion.so/e90f93da63fe44c595b8f46d1e793eb3?v=8b4ea8bbed84474dba1fc07a5f47ed9b)にて
-  - New->自己紹介テンプレート"を使用してください
+  - "New->自己紹介テンプレート"を使用してください
 
 ## 設定するアカウント・ソフト
 
-私たちは以下のツールを使用しています：
+私たちは以下のツールを使用しています
 
 ### Slack
 主要なチャンネルとその用途：
@@ -67,4 +67,4 @@
 ### リポジトリ命名規則
 - 公開サイト: ドメイン名をそのまま使用（例：`blog.geolonia.com`）
 - `-app`と`-api`のセット（例：`prop-id-api`と`prop-id-app`）
-- インフラ管理: `infrastructure`
+- インフラ管理： `infrastructure`
