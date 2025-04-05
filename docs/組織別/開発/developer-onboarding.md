@@ -67,4 +67,4 @@
 ### リポジトリ命名規則
 - 公開サイト: ドメイン名をそのまま使用（例：`blog.geolonia.com`）
 - `-app`と`-api`のセット（例：`prop-id-api`と`prop-id-app`）
-- インフラ管理: `infrastructure`
+- インフラ管理： `infrastructure`
