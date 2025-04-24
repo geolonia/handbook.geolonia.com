@@ -56,5 +56,5 @@
 ## 参考文献
 - ［『Microsoft Writing Style Guide（Procedures and instructions）』］(https://learn.microsoft.com/en-us/style-guide/procedures-instructions/)
 - ［『Japanese Localization Style Guide（Microsoft）』］(https://download.microsoft.com/download/a/8/2/a822a118-18d4-4429-b857-1b65ab388315/jpn-jpn-StyleGuide.pdf)
-- ［『JTF日本語標準スタイルガイド 第3.0版』］(https://www.jtf.jp/pdf/jtf_style_guide.pdf)
+- ［『JTF日本語標準スタイルガイド第3.0版』］(https://www.jtf.jp/pdf/jtf_style_guide.pdf)
 
