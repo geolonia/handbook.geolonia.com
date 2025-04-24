@@ -38,13 +38,13 @@
 | 〜します | 解説、補足説明 | △ | 状況次第で可 |
 
 ### 4. 文中の UI 要素
-- UI名は半角角かっこで囲む：[保存]、[マップを表示]
-- 項目の説明は「[○○]を選択してください」の形で表現
+- UI名は半角角かっこで囲む：［保存］、［マップを表示］
+- 項目の説明は「［○○］を選択してください」の形で表現
 - ツール名や製品名は翻訳しない
 - 「クリック」など特定の入力方法に特化した表現を使用しない
   - 理由：ユーザーは、キーボード、マウス、タッチ、音声など、さまざまな入力方法で製品を操作します。「〜選択してください」などすべての操作手段（タップ、キーボード等）に対応した表現とする。
 - UI要素の種類（ボタン、リンクなど）は使用せず、ラベル名を使用する。
-  - 例：[ファイルを開く]を選択してください。
+  - 例：［ファイルを開く］を選択してください。
   - 非推奨例：ファイルを開くボタンをクリックしてください。
   - 理由：UIの種類（ボタン、リンクなど）は画面設計によって変更される可能性があるため、具体的なUI種別に依存しない記述とする。
 
@@ -54,7 +54,7 @@
 - 冗長な敬語は避ける（例：×お使いいただきますようお願い申し上げます → ○ご利用ください）
 
 ## 参考文献
-- [『Microsoft Writing Style Guide（Procedures and instructions）』](https://learn.microsoft.com/en-us/style-guide/procedures-instructions/)
-- [『Japanese Localization Style Guide（Microsoft）』](https://download.microsoft.com/download/a/8/2/a822a118-18d4-4429-b857-1b65ab388315/jpn-jpn-StyleGuide.pdf)
-- [『JTF日本語標準スタイルガイド 第3.0版』](https://www.jtf.jp/pdf/jtf_style_guide.pdf)
+- ［『Microsoft Writing Style Guide（Procedures and instructions）』］(https://learn.microsoft.com/en-us/style-guide/procedures-instructions/)
+- ［『Japanese Localization Style Guide（Microsoft）』］(https://download.microsoft.com/download/a/8/2/a822a118-18d4-4429-b857-1b65ab388315/jpn-jpn-StyleGuide.pdf)
+- ［『JTF日本語標準スタイルガイド 第3.0版』］(https://www.jtf.jp/pdf/jtf_style_guide.pdf)
 
