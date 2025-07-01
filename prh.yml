@@ -1,0 +1,9 @@
+version: 1
+rules:
+  - expected: してください
+    pattern: /して下さい/
+    message: 強い命令型を避け、「してください」を使います。
+
+  - expected: 選択
+    pattern: /クリック/
+    message: 「クリック」を「選択」に置き換えましょう。 特定の入力方法に依存しない、「選択」を使います。
