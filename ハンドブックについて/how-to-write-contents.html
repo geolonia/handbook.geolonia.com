@@ -1,0 +1,2231 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="how-to-develop-handbook.html">
+      
+      
+        <link rel="next" href="how-to-write-handbook.html">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+    
+    
+      
+        <title>よりよいコンテンツの書き方 - Geolonia Handbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../index.html" title="Geolonia Handbook" class="md-header__button md-logo" aria-label="Geolonia Handbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Geolonia Handbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              よりよいコンテンツの書き方
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Geolonia Handbook" class="md-nav__button md-logo" aria-label="Geolonia Handbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Geolonia Handbook
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ホーム
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    はじめに
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-of-contents.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    目次
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Geolonia について
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Geolonia について
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Geolonia%20%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    会社概要
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Geolonia%20%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/about-ceo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    代表者について
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    ハンドブックについて
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            ハンドブックについて
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="administration.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ハンドブックの管理者向け説明
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="getting-started.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    まず初めに
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用語集 （ハンドブック）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="how-to-develop-handbook.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ハンドブックの開発 （開発者向け）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    よりよいコンテンツの書き方
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="how-to-write-contents.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    よりよいコンテンツの書き方
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      日本語スタイルについて
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="日本語スタイルについて">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      例
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      要求レベルの表現の統一について
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="要求レベルの表現の統一について">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#must" class="md-nav__link">
+    <span class="md-ellipsis">
+      MUST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#must-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      MUST NOT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHOULD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHOULD NOT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      解説
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="how-to-write-handbook.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ハンドブックの書き方
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    プロダクト
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            プロダクト
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88/geolonia-portfolio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geolonia ポートフォリオ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    組織別
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            組織別
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    デザイン
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            デザイン
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/%E7%9B%AE%E6%AC%A1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    目次
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    人事・労務
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            人事・労務
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E4%BA%BA%E4%BA%8B%E3%83%BB%E5%8A%B4%E5%8B%99/attendance-guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    勤怠管理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E4%BA%BA%E4%BA%8B%E3%83%BB%E5%8A%B4%E5%8B%99/glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用語集 （人事・労務）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E4%BA%BA%E4%BA%8B%E3%83%BB%E5%8A%B4%E5%8B%99/health-checkup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    健康診断
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E4%BA%BA%E4%BA%8B%E3%83%BB%E5%8A%B4%E5%8B%99/new%20employee%20gude.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    入社したら最初に読むページ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    営業部
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            営業部
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E5%96%B6%E6%A5%AD%E9%83%A8/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    目次
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E5%96%B6%E6%A5%AD%E9%83%A8/glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用語集 （営業）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E5%96%B6%E6%A5%AD%E9%83%A8/google-drive.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    営業部 Google ドライブ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E5%96%B6%E6%A5%AD%E9%83%A8/materials.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    営業資料
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E5%96%B6%E6%A5%AD%E9%83%A8/meetings.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    セールスミーティング
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E5%96%B6%E6%A5%AD%E9%83%A8/workflow.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ワークフロー（業務の流れ）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    経理
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            経理
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B5%8C%E7%90%86/expense%20reimbursement.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    経費申請のルール
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B5%8C%E7%90%86/expenses%20rule.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    立替経費の対象
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B5%8C%E7%90%86/glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用語集 （経理）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    総務
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            総務
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B7%8F%E5%8B%99/20-percent-rule.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    自主活動（20％ルール）について
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B7%8F%E5%8B%99/company%20regulations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Company regulations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B7%8F%E5%8B%99/glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用語集 （総務）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B7%8F%E5%8B%99/pc-lending-guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pc lending guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E7%B7%8F%E5%8B%99/welfare%20program.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    福利厚生
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    開発
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            開発
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/aws-account-policy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AWSアカウント運用
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/delivery-documents-municipalities.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    自治体向け納品文書管理マニュアル
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/developer-onboarding.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    オンボーディング
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/development-engineering.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geolonia のソフトウエア開発
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/development-method.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Development method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/effort-management.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    工数管理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/github-account-operations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub アカウント運用
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/manual-text-rule.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    自治体向けのマニュアル作成ガイド
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/naming-rule-aws.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AWS アカウント命名規則とOrganization管理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/naming-rule-gitrepo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Git リポジトリ命名規則
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/pc-security-guidelines.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    開発用PC&amp;データ取扱ルール
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/project-management-policy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    プロジェクト運用方針
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/readinglist.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    リーディングリスト
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/recommend-plugin.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    推奨拡張機能・ツール
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/workflow.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ワークフロー（業務の流れ）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6_16" id="__nav_7_6_16_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    運用・設定ガイド
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_6_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6_16">
+            <span class="md-nav__icon md-icon"></span>
+            運用・設定ガイド
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/%E9%81%8B%E7%94%A8%E3%83%BB%E8%A8%AD%E5%AE%9A%E3%82%AC%E3%82%A4%E3%83%89/address-search-implementation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    住所検索の実装
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/%E9%81%8B%E7%94%A8%E3%83%BB%E8%A8%AD%E5%AE%9A%E3%82%AC%E3%82%A4%E3%83%89/domain-registration.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DNS ドメイン登録方法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%B5%84%E7%B9%94%E5%88%A5/%E9%96%8B%E7%99%BA/%E9%81%8B%E7%94%A8%E3%83%BB%E8%A8%AD%E5%AE%9A%E3%82%AC%E3%82%A4%E3%83%89/upload-tileset.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    配信用タイルセットのアップロード
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      日本語スタイルについて
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="日本語スタイルについて">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      例
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      要求レベルの表現の統一について
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="要求レベルの表現の統一について">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#must" class="md-nav__link">
+    <span class="md-ellipsis">
+      MUST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#must-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      MUST NOT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHOULD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHOULD NOT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      解説
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">よりよいコンテンツの書き方</h1>
+<h2 id="_2">日本語スタイルについて</h2>
+<p>現時点では（2024年11月現在）、ハンドブックは日本語で記述するものとします。将来国際化が必要となることも想定されます。</p>
+<p>日本語の記述については、「JTF 日本語標準スタイルガイド」に従って記述しなければなりません。</p>
+<p><a href="https://www.jtf.jp/pdf/jtf_style_guide.pdf">https://www.jtf.jp/pdf/jtf_style_guide.pdf</a></p>
+<h3 id="_3">例</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">○</th>
+<th style="text-align: center;">✗</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">実行しましょう。</td>
+<td style="text-align: center;">実行すること。</td>
+<td>本文は敬体を使用すること。</td>
+</tr>
+<tr>
+<td style="text-align: center;">報告してください。</td>
+<td style="text-align: center;">報告して下さい。</td>
+<td>ひらがなと漢字の使い分けの誤り。</td>
+</tr>
+<tr>
+<td style="text-align: center;">コンピューター</td>
+<td style="text-align: center;">コンピュータ</td>
+<td>カタカナ語の語尾の長音は省略しない。</td>
+</tr>
+<tr>
+<td style="text-align: center;">カー・ナビゲーション・システム</td>
+<td style="text-align: center;">カーナビゲーションシステム</td>
+<td>長いカタカナ複合語は全角中黒または半角スペースで区切る。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">要求レベルの表現の統一について</h2>
+<p>あいまいさを回避するために、以下の表現を用いて要求レベルを明確にすることを推奨します。これは <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC2119 の 「Key words for use in RFCs to Indicate Requirement Levels」</a>をベースとしています。</p>
+<h3 id="must">MUST</h3>
+<p>以下の表現が用いられている文章は、絶対に守られるべき条件を意味しています。守られなかった場合、新しい別の問題が生まれる可能性が非常に高いことを意味しています。</p>
+<ul>
+<li>しなければなりません。</li>
+<li>必ず 〜 してください。</li>
+</ul>
+<h3 id="must-not">MUST NOT</h3>
+<p>以下の表現は MUST の逆で、絶対に行われてはならない禁止事項であることを意味しています。MUST と同様に、禁止事項を破ることで高い可能性でなんらかの問題が生じることを意味しています。</p>
+<ul>
+<li>してはいけません。</li>
+<li>絶対に 〜 しないでください。</li>
+</ul>
+<h3 id="should">SHOULD</h3>
+<p>以下の表現は、MUST ほどの強制力はありませんが、守ることを推奨することを意味しています。守らなかったことで必ずしも問題が生じることがないかもしれませんが、他のチームメンバーによる手助けが必要になるかもしれません。</p>
+<ul>
+<li>〜 してください。</li>
+<li>〜 することを推奨します。</li>
+</ul>
+<h3 id="should-not">SHOULD NOT</h3>
+<p>以下の表現は、MUST NOT ほどの強制力はありませんが、避けるべきであることを意味しています。SHOULD と同様に守らなかったことで必ずしも問題が生じることがないかもしれませんが、他のチームメンバーによる手助けが必要になるかもしれません。</p>
+<ul>
+<li>〜 しないでください。</li>
+<li>〜 しないことを推奨します。</li>
+</ul>
+<h3 id="_5">解説</h3>
+<p>たとえば、「経費精算はX日までにしなければなりません。」と記載があれば、必ずX日までに経費精算をすることがルールとして明確に定められているということを意味しています。</p>
+<p>一方で、「◯◯はX日までに提出してください」という記述であれば、「必ずとまでは言わないがX日までに提出することが推奨されている」ということを意味しています。この場合、必須ではないからと言って、「遅れたことがまったく問題がない」ということを保証しているわけではないことに注意してください。</p>
+<p>ルールを厳密に運用することにはコストがかかります。そのコストを削減するために「〜してください」というあいまいな表現を用いることが一般的に多くありますが、あまりにもひどく守られない場合は「必ず」という表現が付け加えられることがあります。この場合、あなただけではなく他のチームメンバーもコストが増えうることを十分に理解してください。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Geolonia Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
